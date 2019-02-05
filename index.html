@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Materilize CSS -->
+    <link rel="stylesheet" href="style.css">
+  
+            
+    <title>Cat Finder</title>
+</head>
+<body>
+    
+    <div id="container">
+        <header>
+            <h1>Cat Finder</h1>
+        </header>
+        <div id="wrapper">
+            <!-- Sort By file type functionality -->
+
+            <div id="imageType">
+                <label for="gif">GIF
+                    <input type="checkbox" class="filled-in" checked="checked" name="gif" id="gif">
+                    <span class="checkmark"></span>
+                </label>
+            
+                <label for="png">PNG
+                    <input type="checkbox" class="filled-in" checked="checked" name="png" id="png">
+                    <span class="checkmark"></span>
+                </label>
+            
+                <label for="jpeg">JPEG
+                    <input type="checkbox" class="filled-in" checked="checked" name="jpeg" id="jpeg">
+                    <span class="checkmark"></span>
+                </label>  
+            </div>
+
+            <div id="input">
+                <input type="text" id="searchBox" placeholder="Search Cat here"> 
+                <button type="button" id="button">Search</button>
+            </div>
+            <div id="imgWrapper">
+                    <div id="images"></div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
