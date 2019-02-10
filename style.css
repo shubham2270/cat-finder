@@ -34,9 +34,10 @@ body {
     align-content: center; */
     align-self: center;
     /* background-color: orange; */
+    height: 200px;
     position: relative;
     top: 0px;
-    transition: all ease-in-out 800ms;
+    transition: all ease-in-out 400ms;
 }
 
 #imgWrapper {
@@ -89,7 +90,7 @@ header {
 button {
   background: var(--primary-color);
   padding: 20px;
-  border-radius: 3px;
+  border-radius: 100px;
   border: 0;
   font-size: 12px;
   color: white;
@@ -156,6 +157,8 @@ label input {
     height: 25px;
     width: 25px;
     background-color: #eee;
+    border-radius: 2px;
+    transition: all ease-in-out 300ms;
   }
   
   /* On mouse-over, add a grey background color */
@@ -166,6 +169,8 @@ label:hover input ~ .checkmark {
   /* When the checkbox is checked, add a blue background */
   label input:checked ~ .checkmark {
     background: var(--primary-color);
+    border-radius: 50px;
+    transition: all ease-in-out 300ms;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
