@@ -44,7 +44,7 @@ const displayImages = (e) => {
                         errorMessage.style.display = 'block';
                     } else {
                         errorMessage.style.display = 'none';
-                        fetch(`https://api.thecatapi.com/v1/images/search?limit=6&page=2&order=Desc&mime_types=${imageType}&category_ids=${cat.id}`)
+                        fetch(`https://api.thecatapi.com/v1/images/search?limit=9&page=2&order=Desc&mime_types=${imageType}&category_ids=${cat.id}`)
                         .then(response => response.json())
                         .then(data => {
                             //Creates img tags and display images
@@ -58,7 +58,7 @@ const displayImages = (e) => {
 
                 })
         } else {
-            fetch(`https://api.thecatapi.com/v1/images/search?limit=6&page=2&order=Desc&mime_types=${imageType}`)
+            fetch(`https://api.thecatapi.com/v1/images/search?limit=9&page=2&order=Desc&mime_types=${imageType}`)
                 .then(response => response.json())
                 .then(data => {
                     //Creates img tags and display images
