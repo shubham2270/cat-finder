@@ -74,10 +74,9 @@ header {
   padding: 20px;
   border-radius: 3px;
   border: 0;
-  font-size: 12px;
   box-shadow: rgba(194, 194, 194, 0.8) 0px 0px 35px;
   width: 300px;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   outline: none;
   transition: all ease-in-out 300ms;
   border-radius: 100px;
@@ -198,3 +197,24 @@ label:hover input ~ .checkmark {
     transform: rotate(45deg);
   }
     /* ----------------------Checkbox styling end ------------------------- */
+
+#errorMessage {
+  color: rgb(255, 79, 79);
+  text-align: center;
+  padding-top: 30px;
+  display: none;
+}
+
+#errorMessage p {
+  color: rgb(163, 163, 163);
+  text-align: center;
+  padding-top: 10px;
+}
+
+#tip {
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(50, 116, 41);
+  display: block;
+  transition: all ease-in-out 1s;
+}
