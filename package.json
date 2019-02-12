@@ -1,0 +1,20 @@
+{
+  "name": "cat-pic-finder",
+  "version": "1.0.0",
+  "description": "\"# cat-finder\" \r A cat finder app for searching cat pictures which you can sort your image type by check/unchecking the options between png, gif, jpeg images.<br> Search field can be used to find particular catagory like cats with boxes, cloth, hats, space, sunglasses ties.<br> Any catagory not available will display error message and if search field left blank will display random cat pictures.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham2270/cat-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham2270/cat-finder/issues"
+  },
+  "homepage": "https://github.com/shubham2270/cat-finder#readme",
+  "dependencies": {}
+}

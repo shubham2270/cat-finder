@@ -38,7 +38,6 @@ const displayImages = (e) => {
                     let cat =  data.find((categories) => {
                        return categories.name === searchValue;
                     })
-
               
                     if (cat === undefined) { //Checks if valid search term is typed
                         errorMessage.style.display = 'block';
