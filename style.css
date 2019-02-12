@@ -21,8 +21,7 @@ body {
     justify-content: center;
     grid-template-rows: 1fr 8fr auto;
     height:100% ;
-    /* background-color: yellow; */
-   
+    /* background-color: yellow; */ 
 }
 
 #wrapper {
@@ -41,8 +40,7 @@ body {
 #imgWrapper {
     display: grid;
     justify-content: center;
-    align-content: center;
-    
+    align-content: center; 
 }
 
 #images {
@@ -94,7 +92,6 @@ button {
   padding: 20px;
   border-radius: 100px;
   border: 0;
-  font-size: 12px;
   color: white;
   margin-left: 25px;
   width: 100px;
@@ -108,9 +105,11 @@ button:hover {
     background: rgb(71, 133, 13);
 }
 
-#imageType {
+#filter {
     justify-self: center;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
 }
 
 footer {
@@ -121,7 +120,6 @@ footer {
     background-color:var(--primary-color);
     align-items: center;
     display: flex;
-  
 }
 #footer {
     width: 100%;
@@ -138,84 +136,6 @@ footer {
   color: rgb(255, 251, 0);
   transition: all ease-in-out 300ms;
 }
-
-
-
-
- /* ----------------------Checkbox styling start ------------------------- */
-
-/* Hide the browser's default checkbox */
-label input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-
-  label {
-    /* display: block; */
-    position: relative;
-    padding-left: 35px;
-    padding-right: 25px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  /* Create a custom checkbox */
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 2px;
-    transition: all ease-in-out 300ms;
-  }
-  
-  /* On mouse-over, add a grey background color */
-label:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  label input:checked ~ .checkmark {
-    background: var(--primary-color);
-    border-radius: 50px;
-    transition: all ease-in-out 300ms;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  label input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  label .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-    /* ----------------------Checkbox styling end ------------------------- */
 
 #errorMessage {
   color: rgb(255, 79, 79);
@@ -237,3 +157,4 @@ label:hover input ~ .checkmark {
   display: block;
   transition: all ease-in-out 1s;
 }
+

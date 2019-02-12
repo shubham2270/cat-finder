@@ -1,0 +1,130 @@
+@media only screen and (max-width: 600px) {
+
+            header{
+            font-size: 1.2rem;
+            }
+
+            #container {
+            display: grid;
+            /* background-color: yellow;  */
+        }
+
+        #wrapper {
+            display: grid;
+            grid-template-rows:  auto;
+            align-self: center;
+            transition: all ease-in-out 400ms;
+        }
+
+        #images {
+            display: grid;
+            grid-template-columns: repeat(2, 200px);
+            grid-gap: 15px;
+            align-content: center;
+            padding-top: 30px;
+            /* background-color: red; */
+        }
+
+        img {
+        width: 200px;
+        align-self: stretch;
+        border-radius: 5px;
+        }
+
+        #searchBox {
+        background: rgb(255, 255, 255);
+        padding: 13px;
+        border-radius: 3px;
+        box-shadow: rgba(194, 194, 194, 0.8) 0px 0px 35px;
+        width: 200px;
+        font-size: 1rem;
+        outline: none;
+        transition: all ease-in-out 300ms;
+        border-radius: 100px;
+        }
+
+        button {
+            padding: 15px;
+            border-radius: 100px;
+            border: 0;
+            /* font-size: 5px; */
+            color: white;
+            margin-left: 10px;
+            width: 85px;
+            font-size: 1rem;
+            outline: none;
+            transition: all ease-in-out 200ms;
+            cursor: pointer;
+          }
+
+          #filter {
+            justify-self: center;
+            /* flex-direction: column; */
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+         }
+
+
+         /* Style for radio buttons */
+         label {
+            display: block;
+            position: relative;
+            padding-left: 25px;
+            padding-right: 15px;
+            padding-top: 10px;
+            cursor: pointer;
+            font-size: 17px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            border-radius: 2px;
+            transition: all ease-in-out 300ms;
+            margin-top: 10px;
+          }
+
+          /* dropdown style */
+
+          .select {
+            position: relative;
+            display: block;
+            width: 10em;
+            height: 3em;
+            background-color: rgb(97, 184, 17);
+            overflow: hidden;
+            border-radius: 100px;
+          }
+
+          #errorMessage {
+            color: rgb(255, 79, 79);
+            text-align: center;
+            padding-top: 30px;
+            display: none;
+          }
+          
+          #errorMessage p {
+            color: rgb(163, 163, 163);
+            text-align: center;
+            padding-top: 10px;
+          }
+          
+          #tip {
+            text-align: center;
+            font-size: .9rem;
+            color: rgb(50, 116, 41);
+            display: block;
+            padding: 0px 10px 10px 10px;
+            transition: all ease-in-out 1s;
+          }
+
+}
